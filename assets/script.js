@@ -10,7 +10,7 @@ for (var i =9 ; i<=17;i++){
      var key ="hour-"+i;
      console.log(key);
      var template = 
-    $('<div class = "row"><div class ="hour">'+i+'AM</div><textarea class ="description w-50 p-4 col-10"></textarea><button data-hour='+i+' class="saveBtn w-25 p-2 col-1 fas fa-save fa-2x"></button></div><p></p>');
+    $('<div class = "row"><div class ="hour w-25 p-4 col-1">'+i+'AM</div><textarea class ="description w-50 p-4 col-10"></textarea><button data-hour='+i+' class="saveBtn w-25 p-2 col-1 fas fa-save fa-2x"></button></div><p></p>');
      
     var data = "sdf"
     
@@ -32,6 +32,11 @@ for (var i =9 ; i<=17;i++){
         template.removeClass("future");
         template.removeClass("past");
         template.addClass("present");
-    }
-      
+    }      
 }
+
+$(".saveBtn").on("click" , function(){
+    console.log("save");
+
+});
+    
