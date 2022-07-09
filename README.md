@@ -10,7 +10,7 @@ I have used the [Moment.js](https://momentjs.com/) library to work with date and
 
 The following animation demonstrates the application functionality:
 
-![A user clicks on slots on the color-coded calendar and edits the events.](http://127.0.0.1:5501/index.html)
+![A user clicks on slots on the color-coded calendar and edits the events.]
 
 live application deployed at :https://alka485.github.io/Work-Day-Scheduler/
 
