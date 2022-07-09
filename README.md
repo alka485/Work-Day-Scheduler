@@ -12,4 +12,6 @@ The following animation demonstrates the application functionality:
 
 ![A user clicks on slots on the color-coded calendar and edits the events.](http://127.0.0.1:5501/index.html)
 
+live application deployed at :https://alka485.github.io/Work-Day-Scheduler/
+
 
